@@ -9,6 +9,16 @@ body {
     color: #06181f;
 }
 
+.header {
+    color: #010d12;
+    margin-bottom: 20px;
+}
+
+#header {
+    padding: 20px;
+    margin: 10px;
+}
+
 .card {
     font-weight: bold;
     padding: 20px 30px;
@@ -38,11 +48,6 @@ body {
     padding: 10px;
 }
 
-.header {
-    color: #010d12;
-    margin-bottom: 20px;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -56,11 +61,6 @@ body {
     margin: auto;
     max-width: 750px;
     padding-top: 30px;
-}
-
-#header {
-    padding: 20px;
-    margin: 10px;
 }
 
 .footer {
@@ -131,4 +131,55 @@ a:active {
 .table td:hover {
     background: #ebbebe;
 }
+
+.form h3 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #969595;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    color: #000;
+    font-family: inherit;
+    padding: 10px 0 10px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.form-row .form-group {
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 10px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
 
